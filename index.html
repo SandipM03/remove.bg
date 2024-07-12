@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html leng="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1.0"/>
+        <title>Background Remover</title>
+        <link rel="stylesheet" href="style.css">
+        <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />  
+    
+    </head>
+    <body>
+        <header class="header">
+            <a href="#home" class="logo">Background
+                <span>Remover</span>
+            </a>
+            <i class="bx bx-menu" id="menu-icon"></i>
+            <nav class="navbar">
+               <a href="#home">Home</a> 
+               
+               <a href="#contact">Contact</a> 
+            </nav>
+        </header>
+        <section class="home" id="home">
+                    <div class="main-container">
+                            <p class="text"> Transparent Magic: Your Ultimate Background Remover Tool</p>
+                    </div>
+           
+               <div class="container">
+                <div class="row">
+                      <form>
+                        <div class="form-group">
+                            <label for="filepicker">select a File</label>
+                        <input class="form-control" id="filepicker" type="file">
+                        </div>
+                        <div class="home-btn" >
+                            <button class="btn" style="margin-right: 22px;"  onclick="handleUpload()" type="button" >Upload  </button>
+                        </form>  
+                        <button class="btn" onclick="downloadFile()"> Download</button>
+                        </div>
+                       
+                </div>
+               </div>
+
+            </div>
+
+           
+
+
+        </section>
+        
+        
+        <section class="services" id="services">
+            <h2 class="heading">How to remove background from a picture</h2>
+
+            <div class="services-container">
+                <div class="service-box">
+                    <div class="service-info">
+
+                            <h4> <strong>Step1:Choose an Image </strong></h4>
+                            <p>
+                                Choose a JPG, PNG or HEIC file. Try to choose an image where the subject has clear edges.
+                            </p>
+                            <h4> <strong>Step2:Upload Your Image </strong></h4>
+                            <p>
+                                After choosing an image, upload it.
+                            </p>
+                            <h4> <strong>Step3:Automatically remove background </strong></h4>
+                            <p>
+                                After uploading, please wait for a while, and the background remover will automatically remove the background from your image.
+                            </p>
+                            <h4> <strong>Step4:Download or save new image  </strong></h4>
+                            <p>
+                                Download your newly cut-out image to share.
+                            </p>
+                        
+                        
+
+                    </div>
+                </div>
+
+                
+
+                
+            </div>
+
+        </section>
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Us</span></h2>
+
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <div class="input-group">
+                  <input type="hidden" name="access_key" value="1e8131c4-f874-421c-b086-5789b705d060" />
+                  
+                  <div class="input-box">
+                    
+                    <input type="text" name="Full Name" required placeholder="Full Name" >
+                    <input type="email" name="Email" placeholder="Email" required />
+                  </div>
+                  <div class="input-box">
+                    <input type="number" name="Phone Number" placeholder="Phone Number" required />
+                    <input type="text" name="Subject" placeholder="Subject" required />
+                  </div>
+                </div>
+                <div class="input-group-2">
+                  <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                  <input type="submit" value="Send Message" class="btn" />
+                </div>
+              </form>
+
+        </section>
+        <footer class="footer">
+            
+            <ul class="list">
+                
+                <li>
+                    <a href="#home"> Home</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+
+                </li>
+
+            </ul>
+            <p class="copyright">
+                Designed With &#10084; Sandip Mandal
+            </p>
+        </footer>
+        
+       
+        <script src="script.js"></script>
+    </body>
+
+</html>
+
+    
