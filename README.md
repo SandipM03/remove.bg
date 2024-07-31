@@ -10,18 +10,18 @@ Hence, I decided to create this project.
 
 #How to use it
 
-#Step1:Choose an Image
+Step1:Choose an Image
 
 Choose a JPG, PNG or HEIC file. Try to choose an image where the subject has clear edges.
 
-#Step2:Upload Your Image
+Step2:Upload Your Image
 
 After choosing an image, upload it.
 
-#Step3:Automatically remove background 
+Step3:Automatically remove background 
 
 After uploading, please wait for a while, and the background remover will automatically remove the background from your image.
 
-#Step4:Download or save new image
+Step4:Download or save new image
 
-Download your newly cut-out image to share.
+Download your newly cut-out image.
