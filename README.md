@@ -1,14 +1,14 @@
-#Ultimate Background Remover Tool.
+# Ultimate Background Remover Tool.
 
-#Reason for project:
+# Reason for project:
 
 After learning JavaScript and the DOM, I want to gain hands-on experience and practice my CSS skills. 
 As a designer, I often need to use pictures without backgrounds, and visiting a website and signing in repeatedly can be cumbersome. 
 Hence, I decided to create this project.
 
-#[API]=("https://www.remove.bg/api")
+# [API]=("https://www.remove.bg/api")
 
-#How to use it
+# How to use it
 
 Step1:Choose an Image
 
